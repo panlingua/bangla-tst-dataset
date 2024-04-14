@@ -1,7 +1,7 @@
 # Multingual Text Style transfer datasets
 ## Introduction
 <p align="justify">
-We present a novel Bangla dataset that facilitates text sentiment transfer, a subtask of Text style transfer (TST), enabling the transformation of positive sentiment sentences to negative and vice versa. To establish a high-quality base for further research, we refined and corrected an existing English dataset of 1,000 sentences for sentiment transfer based on Yelp reviews, and we introduce a new human-translated Bangla dataset that parallels its English counterpart. For further read, please refer [our paper](https://aclanthology.org/2023.banglalp-1.5)</p>
+We present a novel Bangla dataset that facilitates text sentiment transfer, a subtask of Text style transfer (TST), enabling the transformation of positive sentiment sentences to negative and vice versa. To establish a high-quality base for further research, we refined and corrected an existing English dataset of 1,000 sentences for sentiment transfer based on Yelp reviews, and we introduce a new human-translated Bangla dataset that parallels its English counterpart. For further read, please refer <a href="https://aclanthology.org/2023.banglalp-1.5"> our paper</a>.</p>
 
 # Datasets
 - [Bengali/Bangla](https://github.com/panlingua/multilingual-tst-datasets) 
