@@ -1,16 +1,31 @@
-# Multingual Text Style Transfer Datasets
+# Multilingual Text Style Transfer (MTST) Datasets 
 ## Introduction
 <p align="justify">
-We present a novel Bangla dataset that facilitates text sentiment transfer, a subtask of Text style transfer (TST), enabling the transformation of positive sentiment sentences to negative and vice versa. To establish a high-quality base for further research, we refined and corrected an existing English dataset of 1,000 sentences for sentiment transfer based on Yelp reviews, and we introduce a new human-translated Bangla dataset that parallels its English counterpart. For further read, please refer <a href="https://aclanthology.org/2023.banglalp-1.5"> our paper</a>.</p>
+We present a novel <a href="https://github.com/panlingua/multilingual-tst-datasets">Bangla dataset</a> that facilitates text sentiment transfer, a subtask of Text style transfer (TST), enabling the transformation of positive sentiment sentences to negative and vice versa. To establish a high-quality base for further research, we <a href="https://github.com/panlingua/multilingual-tst-datasets"> refined and corrected an existing English dataset</a> of 1,000 sentences for sentiment transfer based on <a href="https://github.com/lijuncen/
+Sentiment-and-Style-Transfer">Yelp reviews</a>, and we introduce a new human-translated Bangla dataset that parallels its English counterpart. For further read, please refer <a href="https://aclanthology.org/2023.banglalp-1.5"> our paper</a>.</p>
 
-# Datasets
-- [Bengali/Bangla](https://github.com/panlingua/multilingual-tst-datasets) 
+# Structure of the MTST datasets:
+```
+📂 multilingual-tst-datasets/
+    📂  bengali/
+        ├── bn_yelp_reference-0.csv
+        ├── bn_yelp_reference-1.csv
+        └── ..
+    📂  refined-english/
+        ├── en_yelp_reference-0.csv
+        ├── en_yelp_reference-1.csv
+        └── ..
+    ├── LICENSE.md
+    ├── README.md
+```
 
 # License
-- [License](https://github.com/panlingua/multilingual-tst-datasets/blob/main/LICENSE)
+Please read the [License](https://github.com/panlingua/multilingual-tst-datasets/blob/main/LICENSE) file.
+
 # Acknowldegments
-This research was supported by the European Research Council (Grant agreement No. 101039303 NG-NLG) and by Charles University projects GAUK 392221 and SVV 260575. We acknowledge of the use of resources provided by the LINDAT/CLARIAH-CZ Research Infrastructure (Czech Ministry of Education, Youth, and Sports project No. LM2018101). We would also like to acknowledge Panlingua Language Processing LLP for this collaborative research project and for providing the dataset.
-Atul Kr. Ojha would like to acknowledge the support of the Science Foundation Ireland (SFI) as part of Grant Number SFI/12/RC/2289_P2 Insight_2, Insight SFI Centre for Data Analytics.
+<p align="justify">This research was supported by the <a href="https://erc.europa.eu/homepage">European Research Council</a> (Grant agreement No. 101039303 NG-NLG) and by <a href="https://cuni.cz/">Charles University </a> projects GAUK 392221 and SVV 260575. We acknowledge of the use of resources provided by the <a href="https://ufal.mff.cuni.cz/">LINDAT/CLARIAH-CZ Research Infrastructure</a> (Czech Ministry of Education, Youth, and Sports project No. LM2018101). We would also like to acknowledge <a href="panlingua.co.in"> Panlingua Language Processing LLP </a> for this collaborative research project and for providing the dataset.
+  
+Atul Kr. Ojha would like to acknowledge the support of the <a href="https://www.sfi.ie/"> Science Foundation Ireland (SFI)</a> as part of Grant Number SFI/12/RC/2289_P2 Insight_2, <a href="https://www.insight-centre.org/">Insight SFI Centre for Data Analytics</a>. </p>
 # References
 If you use this data, please cite:
 ```
@@ -36,4 +51,15 @@ If you use this data, please cite:
     pages = "34--47",
 }
 ```
+</pre>
 
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) =====================================================
+Data available since: Multilingual Text Style Transfer (MTST) Datasets@2023
+License: See the <i>LICENSE.md</i>
+=======
+Includes text: Yes
+Contact:info@panlingua.co.in or atulkumar.ojha@insight-centre.org/shashwatup9k@gmail.com 
+Contributor/&copy; holder: Panlingua Language Processing LLP, India; Institute of Formal and Applied Linguistics, Faculty of Mathematics and Physics Charles University, Czech Republic; and Insight Centre for Data Analytics, Data Science Institue, University of Galway, Ireland
+=======================================================================================================
+</pre>
